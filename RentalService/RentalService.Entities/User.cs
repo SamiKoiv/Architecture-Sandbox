@@ -2,7 +2,7 @@
 {
     public abstract class User
     {
-        public string Name { get; }
-        public IEnumerable<Rent> Rents { get; }
+        public abstract string Name { get; }
+        public abstract IEnumerable<Rent> Rents { get; }
     }
 }

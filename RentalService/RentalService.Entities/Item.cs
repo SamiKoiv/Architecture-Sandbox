@@ -2,8 +2,8 @@
 {
     public abstract class Item
     {
-        public string Name { get; }
+        public abstract string Name { get; }
 
-        public IEnumerable<Rent> Rents { get; }
+        public abstract IEnumerable<Rent> Rents { get; }
     }
 }

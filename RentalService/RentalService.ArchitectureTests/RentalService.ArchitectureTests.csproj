@@ -23,9 +23,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RentalService.Domain\RentalService.Domain.csproj" />
+    <ProjectReference Include="..\RentalService.Console\RentalService.Main.csproj" />
     <ProjectReference Include="..\RentalService.Entities\RentalService.Entities.csproj" />
     <ProjectReference Include="..\RentalService.NonPersistingDataAccess\RentalService.NonPersistingDataAccess.csproj" />
+    <ProjectReference Include="..\RentalService.UseCases\RentalService.UseCases.csproj" />
   </ItemGroup>
 
 </Project>

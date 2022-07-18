@@ -10,4 +10,8 @@
     <ProjectReference Include="..\RentalService.Entities\RentalService.Entities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="InputBoundaries\" />
+  </ItemGroup>
+
 </Project>

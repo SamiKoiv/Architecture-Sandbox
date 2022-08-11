@@ -1,8 +1,8 @@
-﻿using RentalService.ConsoleUI.Commands;
+﻿using RentalService.App_Console.Commands;
 
-namespace RentalService.ConsoleUI
+namespace RentalService.App_Console
 {
-    public class RentalServiceUI
+    internal class RentalServiceUI
     {
         private CommandHandler _handler;
 

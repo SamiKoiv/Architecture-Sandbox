@@ -1,8 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using RentalService.ConsoleUI;
-using RentalService.ConsoleUI.Commands;
 using RentalService.Main.Logging;
 using RentalService.NonPersistingDataAccess.Repositories;
 using RentalService.UseCases.Repositories;
@@ -21,8 +19,6 @@ namespace RentalService.Main
                 services
                 .AddScoped<ILogger, ConsoleLogger>()
                 .AddTransient<IUserRepository, UserRepository>()
-                .AddTransient<RentalServiceUI, RentalServiceUI>()
-                .AddTransient<CommandHandler, CommandHandler>()
                 )
                 .Build();
 

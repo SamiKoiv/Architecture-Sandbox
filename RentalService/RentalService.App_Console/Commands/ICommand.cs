@@ -1,4 +1,4 @@
-﻿namespace RentalService.ConsoleUI.Commands
+﻿namespace RentalService.App_Console.Commands
 {
     internal interface ICommand
     {

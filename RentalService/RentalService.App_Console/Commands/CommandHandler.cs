@@ -1,12 +1,12 @@
-﻿using RentalService.ConsoleUI;
+﻿using RentalService.App_Console;
 
-namespace RentalService.ConsoleUI.Commands
+namespace RentalService.App_Console.Commands
 {
-    public class CommandHandler
+    internal class CommandHandler
     {
         private readonly Dictionary<string, ICommand> _commands;
 
-        public CommandHandler(GetUsersCommand getUsersCommand)
+        internal CommandHandler(GetUsersCommand getUsersCommand)
         {
             _commands = new List<ICommand>()
             {

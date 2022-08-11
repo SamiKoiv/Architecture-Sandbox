@@ -2,11 +2,11 @@
 
 namespace RentalService.App_Console
 {
-    internal class RentalServiceUI
+    internal class RentalServiceApp
     {
         private CommandHandler _handler;
 
-        public RentalServiceUI(CommandHandler handler)
+        public RentalServiceApp(CommandHandler handler)
         {
             _handler = handler;
         }
@@ -14,6 +14,8 @@ namespace RentalService.App_Console
 
         public void Run()
         {
+            Console.Title = nameof(RentalServiceApp);
+
             Console.WriteLine("Welcome to RentalService! \n");
 
             while (true)

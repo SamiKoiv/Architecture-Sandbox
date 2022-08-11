@@ -6,12 +6,9 @@ namespace RentalService.App_Console.Commands
     {
         private readonly Dictionary<string, ICommand> _commands;
 
-        internal CommandHandler(GetUsersCommand getUsersCommand)
+        internal CommandHandler(ICollection<ICommand> commands)
         {
-            _commands = new List<ICommand>()
-            {
-                getUsersCommand
-            }
+            _commands = commands
             .ToDictionary(c => c.Name.ToLower());
         }
 

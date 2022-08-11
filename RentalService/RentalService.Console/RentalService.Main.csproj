@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RentalService.App_Console\RentalService.App_Console.csproj" />
     <ProjectReference Include="..\RentalService.NonPersistingDataAccess\RentalService.NonPersistingDataAccess.csproj" />
     <ProjectReference Include="..\RentalService.UseCases\RentalService.UseCases.csproj" />
   </ItemGroup>
